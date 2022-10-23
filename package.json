@@ -1,0 +1,23 @@
+{
+  "name": "fastify-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "Athithyan Rengaswamy",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.9.2",
+    "nanoid": "^4.0.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
